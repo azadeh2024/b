@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<!--  refrence CSS file -->
+<link rel="stylesheet" th:href=@{/static.css} />
+<title>Thymeleaf Demo</title>
+</head>
+<body>
+<p th:text="'Time on server is ' + ${theDate}"  class="new" />
+</body>
+</html>
